@@ -246,7 +246,7 @@ name = "exceptiongroup"
 version = "1.3.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "typing-extensions", marker = "python_full_version < '3.11'" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/50/79/66800aadf48771f6b62f7eb014e352e5d06856655206165d775e675a02c9/exceptiongroup-1.3.1.tar.gz", hash = "sha256:8b412432c6055b0b7d14c310000ae93352ed6754f70fa8f7c34141f91c4e3219", size = 30371, upload-time = "2025-11-21T23:01:54.787Z" }
 wheels = [
@@ -1523,7 +1523,7 @@ wheels = [
 
 [[package]]
 name = "semble"
-version = "0.4.1"
+version = "0.4.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "bm25s" },
@@ -1537,9 +1537,9 @@ dependencies = [
     { name = "tree-sitter-language-pack" },
     { name = "vicinity" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/1b/fd/2a4bae93c9676220da7aacd12f7141a7b815d64001f1c7d3868c9b85d906/semble-0.4.1.tar.gz", hash = "sha256:df3af4dcb1d8fb6fc3c35324dacea7ee21c133ff3188cbcdd4cda7b6f4703d2b", size = 92871, upload-time = "2026-06-23T09:04:49.06Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ba/64/241b7b9890cf80b636941e1a3e133ffa6e5d505a4757ca715af53dd29b11/semble-0.4.2.tar.gz", hash = "sha256:1c9f65a948fc2d1490d7d7f4da19e1e137f1c05045f854440899587858ac0891", size = 96664, upload-time = "2026-07-06T08:14:01.45Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/84/c7/fff105f5167a1a3d72a7cceae498ab0bdedcb7d53b7754ed9b31e22792f2/semble-0.4.1-py3-none-any.whl", hash = "sha256:d122e7a66fb080117fadac8cb8c543f0b08680b6c5aa65c293252652644148d2", size = 70335, upload-time = "2026-06-23T09:04:47.683Z" },
+    { url = "https://files.pythonhosted.org/packages/60/3c/68eb4c97b425f0d8451d854fe43e070bd41bd49e04cad0db2486460a1a24/semble-0.4.2-py3-none-any.whl", hash = "sha256:9f45013178b0b52d10130f51c193386ae3e8eb46509c2321b60e424718923922", size = 74522, upload-time = "2026-07-06T08:13:59.79Z" },
 ]
 
 [package.optional-dependencies]
@@ -1564,8 +1564,8 @@ mcp = [
 [package.metadata]
 requires-dist = [
     { name = "pyinstaller", specifier = ">=6.0" },
-    { name = "semble", specifier = ">=0.4.1" },
-    { name = "semble", extras = ["mcp"], marker = "extra == 'mcp'", specifier = ">=0.4.1" },
+    { name = "semble", specifier = ">=0.4.2" },
+    { name = "semble", extras = ["mcp"], marker = "extra == 'mcp'", specifier = ">=0.4.2" },
 ]
 provides-extras = ["mcp"]
 
